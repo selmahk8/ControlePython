@@ -60,8 +60,8 @@ def load_tasks():
 
 # Crée la fenêtre principale
 app = tk.Tk()
-app.title("Outils de gestion de tâches")
-app.geometry("600x500")  # Ajustez la largeur pour accommoder les colonnes
+app.title("Gestionnaire de tâches")
+app.geometry("600x500")  # Ajuste la largeur pour les colonnes
 
 # Applique le thème Breeze à l'application
 style = ThemedStyle(app)
@@ -77,7 +77,7 @@ task_list_style = {
     "font": ("Helvetica", 12)  # Police et taille du texte
 }
 
-# Créez les composants de l'interface utilisateur avec les styles personnalisés
+# Crée les composants de l'interface utilisateur avec les styles personnalisés
 description_label = ttk.Label(app, text="Description:")
 description_entry = ttk.Entry(app)
 due_date_label = ttk.Label(app, text="Date d'échéance:")
@@ -89,7 +89,7 @@ delete_button = ttk.Button(app, text="Supprimer", command=delete_task, )
 save_button = ttk.Button(app, text="Enregistrer", command=save_tasks, )
 load_button = ttk.Button(app, text="Charger", command=load_tasks, )
 
-# Utilisez le gestionnaire de mise en page pack pour espacer les boutons
+# Utilise le gestionnaire de mise en page pack pour espacer les boutons
 description_label.pack()
 description_entry.pack()
 due_date_label.pack()
@@ -101,9 +101,9 @@ delete_button.pack(pady=5)
 save_button.pack(pady=5)
 load_button.pack(pady=5)
 
-# Chargez les tâches existantes
+# Charge les tâches existantes
 load_tasks()
 
-# Lancez l'application
+# Lance l'application
 app.mainloop()
 
