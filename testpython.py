@@ -83,7 +83,7 @@ description_entry = ttk.Entry(app)
 due_date_label = ttk.Label(app, text="Date d'échéance:")
 due_date_entry = ttk.Entry(app)
 add_button = ttk.Button(app, text="Ajouter", command=add_task, )
-task_list = tk.Listbox(app, selectmode=tk.SINGLE, width=60, )  # Utilisez le style task_list
+task_list = tk.Listbox(app, selectmode=tk.SINGLE, width=60, )  # Utilise le style task_list
 mark_done_button = ttk.Button(app, text="Marquer comme terminée", command=mark_done, )
 delete_button = ttk.Button(app, text="Supprimer", command=delete_task, )
 save_button = ttk.Button(app, text="Enregistrer", command=save_tasks, )
