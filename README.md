@@ -25,3 +25,5 @@ L'interface utilisateur contient les composants suivants:
 * Champs de saisie: Pour la description et la date d'échéance des tâches.
 * Boutons: Pour ajouter des tâches, marquer des tâches comme terminées, supprimer des tâches, enregistrer et charger des tâches.
 * Liste des Tâches: Affiche toutes les tâches avec leur état (terminé ou non).
+
+Made By: Selma HADJ KHELIFA ; Lyes BOUMRAH ; Sarah KHITER
